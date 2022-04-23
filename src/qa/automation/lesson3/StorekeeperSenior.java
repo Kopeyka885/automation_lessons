@@ -12,6 +12,7 @@ public class StorekeeperSenior extends StorekeeperJunior {
     }
 
     public void mergeSort(int[] data, int n) {
+//        long startTime = System.currentTimeMillis();
         if (n < 2) {
             return;
         }
@@ -22,6 +23,7 @@ public class StorekeeperSenior extends StorekeeperJunior {
         mergeSort(rightHalfArray, n - middleIndex);
 
         mergeArrays(data, leftHalfArray, rightHalfArray, middleIndex, n - middleIndex);
+//        System.out.printf("Затраченное время на сортировку слияением = %d мс\n", System.currentTimeMillis() - startTime);
     }
 
     private void mergeArrays(int[] result, int[] leftArray, int[] rightArray, int left, int right) {

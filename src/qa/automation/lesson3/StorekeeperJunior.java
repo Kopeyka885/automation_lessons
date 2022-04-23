@@ -9,6 +9,7 @@ public class StorekeeperJunior extends Storekeeper {
     }
 
     public void bubbleSort(ArrayList<Integer> data) {
+//        long startTime = System.currentTimeMillis();
         for (int i = 0; i < data.size() - 1; i++){
             for (int j = 0; j < data.size() - 1 - i; j++){
                 if (data.get(j+1) < data.get(j)){
@@ -18,5 +19,6 @@ public class StorekeeperJunior extends Storekeeper {
                 }
             }
         }
+//        System.out.printf("Затраченное время на сортировку пузырьком = %d мс\n", System.currentTimeMillis() - startTime);
     }
 }
