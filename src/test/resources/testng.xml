@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/kamilkadyrov/IdeaProjects/automation_lesson_1">
+
+        <groups>
+            <run>
+                <include name="positive"/>
+                <include name="negative"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="lesson5.TestCalculator"/>
+        </classes>
+    </test>
+</suite>
