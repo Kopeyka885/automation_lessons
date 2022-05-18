@@ -5,13 +5,17 @@
 
         <groups>
             <run>
-                <include name="positive"/>
-                <include name="negative"/>
+<!--                <include name="positive"/>-->
+<!--                <include name="negative"/>-->
+                <include name="getMethod"/>
+                <include name="postMethod"/>
+                <include name="patchMethod"/>
             </run>
         </groups>
 
         <classes>
-            <class name="lesson5.TestCalculator"/>
+<!--            <class name="lesson5.TestCalculator"/>-->
+            <class name="lesson6.TechnokraterAPITesting"/>
         </classes>
     </test>
 </suite>
