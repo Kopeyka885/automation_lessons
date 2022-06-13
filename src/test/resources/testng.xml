@@ -7,15 +7,17 @@
             <run>
 <!--                <include name="positive"/>-->
 <!--                <include name="negative"/>-->
-                <include name="getMethod"/>
-                <include name="postMethod"/>
-                <include name="patchMethod"/>
+<!--                <include name="getMethod"/>-->
+<!--                <include name="postMethod"/>-->
+<!--                <include name="patchMethod"/>-->
+<!--                <include name=""-->
             </run>
         </groups>
 
         <classes>
 <!--            <class name="lesson5.TestCalculator"/>-->
             <class name="lesson6.TechnokraterAPITesting"/>
+<!--            <class name="lesson7.GetAllEmployeesTest"></class>-->
         </classes>
     </test>
 </suite>
