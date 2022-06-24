@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "birthDate": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "department": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "email": {
+        "type": "string"
+      },
+      "fullName": {
+        "type": "string"
+      },
+      "grade": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "id": {
+        "type": "integer"
+      },
+      "phoneNumber": {
+        "type": "string"
+      },
+      "photo": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "filename": {
+            "type": "string"
+          },
+          "id": {
+            "type": "integer"
+          },
+          "link": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "mediaType": {
+            "type": "string"
+          },
+          "mongoFileId": {
+            "type": "string"
+          },
+          "uploadingTime": {
+            "type": "string"
+          }
+        }
+      },
+      "position": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "telegram": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "workStatus": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "email",
+      "id",
+      "fullName",
+      "birthDate",
+      "department",
+      "grade",
+      "phoneNumber",
+      "photo",
+      "position",
+      "telegram",
+      "workStatus"
+    ]
+  }
+}
